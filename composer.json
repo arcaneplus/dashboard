@@ -1,0 +1,19 @@
+{
+    "name": "ArcanePlus/dashboard",
+    "description": "ArcanePlus Backend Dashboard",
+    "type": "project",
+    "license": "ArcanePlus",
+    "authors": [
+        {
+            "name": "ArcanePlus",
+            "email": "packages@arcaneplus.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ArcanePlus\\Dashboard\\": "src"
+        }
+    }
+}
