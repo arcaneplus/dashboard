@@ -8,10 +8,24 @@
             "email": "packages@arcaneplus.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^7.1.3"
+    },
     "autoload": {
         "psr-4": {
-            "ArcanePlus\\Dashboard\\": "src"
+            "ArcanePlus\\Dashboard\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "5.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "ArcanePlus\\Dashboard\\DashboardServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
